@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/JangRuBin2/rockScissorsPaper/issues"
   },
-  "homepage": "https://github.com/JangRuBin2/rockScissorsPaper#readme"
+  "homepage": "https://github.com/JangRuBin2/rockScissorsPaper#readme",
+  "devDependencies": {
+    "@types/node": "^20.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
 }
