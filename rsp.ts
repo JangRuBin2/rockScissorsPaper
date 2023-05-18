@@ -43,7 +43,12 @@ function gambambo(na:string, you:string):string {
   };  
   return result;
 }
-console.log(gambambo("찌","묵"))
+// ? 내가 져야함
+console.log(gambambo("찌","묵"));
+// ? 내가 비겨야함
+console.log(gambambo("찌","가위"));
+// ? 내가 이겨야함
+console.log(gambambo("빠","묵"));
 // ? 작업을 할 때 첫번째로 해야할 것은 조건(가위바위보)을 가지고 얽힌 생각을 풀어내야 한다.
 // ? 1. 함수가 될지 클래스가 될지 모르지만 이름을 만들어 줌
 // ? 2. 규칙을 적습니다. -> 한글로 적어야 알아 먹음(작업중이라고 써넣는다)
