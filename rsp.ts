@@ -17,6 +17,18 @@ function gambambo(na:string, you:string):string {
       result = a;
     }
   };
+  // 내가 바위를 냈을 때
+  if(na ==="바위" || na ==="묵") {
+    if(you === "가위" || you === "찌") {
+      result = a;
+    }
+    if(you === "바위" || you === "묵") {
+      result = c;
+    }
+    if(you === "보자기" || you === "빠") {
+      result = b;
+    }
+  };  
   return result;
 }
 console.log(gambambo("찌","묵"))
